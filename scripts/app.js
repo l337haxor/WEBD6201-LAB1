@@ -19,7 +19,7 @@ Since: 2020-01-03
         console.log("%c App Started", "font-size: 50px");
 
         let productsReplace = document.getElementsByClassName("nav-item")[1];
-        productsReplace.lastChild.textContent = "Projects";
+        productsReplace.lastChild.lastChild.textContent = " Projects";
         console.log(productsReplace);
 
 
