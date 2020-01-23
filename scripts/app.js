@@ -17,15 +17,15 @@ Since: 2020-01-03
     {
          
         console.log("%c App Started", "font-size: 50px");
-        //
+        // Get the first nav item
         let productsReplace = document.getElementsByClassName("nav-item")[1];
-        //
+        // Replace its text link 
         productsReplace.lastChild.lastChild.textContent = " Projects";
         
         //Copy the productsReplace object
         let newLink = productsReplace.cloneNode(true);
         //Change the icon
-        //newLink.lastChild.setAttribute("class", "fas fa-male");
+        //iconClass.setAttribute("class", "fas fa-male");
         //Change the link name
         newLink.lastChild.lastChild.textContent = " Human Resources";
         
